@@ -1,0 +1,54 @@
+
+*{
+    margin: 0px;
+
+}
+
+body{
+    background: gray;
+
+
+}
+
+h1{
+    background: white;
+    height: 80px;
+}
+.menu{
+    display: inline;
+    z-index: 1;
+
+}
+#name{
+    background: #4aaaa5;
+    position: absolute;
+    top: 0px;
+    left:100px;
+    height:80px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    float: left;
+    z-index: 1;
+    
+}
+
+.hmenu{
+    
+    position: absolute;
+    top: 0px;
+    left:700px;
+    height:80px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    
+    
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
