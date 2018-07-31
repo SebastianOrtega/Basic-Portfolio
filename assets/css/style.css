@@ -25,7 +25,7 @@ div.menu{
 }
 h2{
     line-height: 20px;
-    display: inline;
+    display: inline-block;
     float: left;
     margin-left: 100px;
     margin-right: 390px;
@@ -80,12 +80,12 @@ hr{
     border-width: 1.5px;
     border-style:solid;
 }
-img{
+img.mePhoto{
     margin-top: 30px;
     float: left;
     margin-right: 30px;   
 }
-img:hover{
+img.mePhoto:hover{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
@@ -124,4 +124,21 @@ footer{
 
 .push {
   height: 30px;
+}
+
+/* This is for portfolio shoud it have its oun file? */
+
+div.portfolioImages{
+
+    
+}
+div.overImage{
+    
+}
+
+a.over{
+    
+    
+    
+    /* z-index: 100; */
 }
